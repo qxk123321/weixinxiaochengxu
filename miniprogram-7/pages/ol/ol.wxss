@@ -1,0 +1,17 @@
+/* pages/ol/ol.wxss */
+image{
+  animation: rotateImage 10s linear infinite;
+  animation-play-state: running;
+  width: 400rpx;
+  height: 400rpx;
+  border-radius:50%;
+  border: 1px solid #333; 
+}
+@keyframes rotateImage{
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform: totate(360deg);
+  }
+}
